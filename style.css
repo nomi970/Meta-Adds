@@ -17,7 +17,7 @@
     color: #0a0a0a;
     background-color: #fff;
   }
-  
+
   /* Navbar */
   .navbar {
     background: #ffffff;
@@ -182,7 +182,7 @@
     color: #555;
   }
   .global_mini_para{
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
   }
   .why-choose ul {
@@ -198,7 +198,7 @@
   } */
    .why_choose_wrapper{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     padding: 15px 0;
    }
@@ -231,7 +231,8 @@
   }
   .plan h3 {
     margin-bottom: 0.5rem;
-    font-size: 18px;
+    font-size: 26px;
+    padding-bottom: 8px;
     font-weight: 600;
   }
   .plan .price {
@@ -246,8 +247,11 @@
   .plan ul li {
     margin-bottom: 0.5rem;
   }
+   .pricing ul{
+    padding-left: none !important;
+   }
   .pricing li{
-    list-style: none !important;
+    list-style: disc !important;
     padding: 5px 0px;
   }
   /* Footer */
@@ -537,3 +541,30 @@
     
   }
   
+  
+
+  .plan {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.feature-list {
+  padding-left: 1.25rem;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.plan-btn {
+  align-self: flex-start;
+}
+.end_listed{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
